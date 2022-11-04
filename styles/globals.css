@@ -18,3 +18,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@layer base {
+  h1 {
+    @apply font-rubik text-[90px] font-extrabold leading-[107px];
+  }
+
+  h2 {
+    @apply font-rubik text-[67px] font-extrabold leading-[80px];
+  }
+
+  h3 {
+    @apply font-rubik text-[51px] font-bold leading-[60px];
+  }
+
+  h4 {
+    @apply font-rubik text-[38px] font-bold leading-[45px];
+  }
+
+  h5 {
+    @apply font-rubik text-[28px] font-bold leading-[33px];
+  }
+}
