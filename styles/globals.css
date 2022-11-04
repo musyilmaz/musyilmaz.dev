@@ -40,3 +40,9 @@ a {
     @apply font-rubik text-[28px] font-bold leading-[33px];
   }
 }
+
+@layer utilities {
+  .navLink {
+    @apply font-rubik text-[34px] font-normal leading-[25px];
+  }
+}
