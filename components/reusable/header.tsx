@@ -1,13 +1,21 @@
+import Image from "next/image";
 import NavLink from "./navlink";
+
+import PageLogo from "@/assets/musyilmaz-logo.webp";
 
 const Header = () => {
   return (
-    <header className="flex h-14 w-full justify-between">
-      <div>Logo here</div>
-      <div className="flex h-full">
+    <header className="flex h-fit w-full items-center justify-between">
+      <Image
+        src={PageLogo}
+        alt="musyilmaz.dev personal portfolio"
+        priority
+        className="w-32"
+      />
+      <div className="flex h-full items-start gap-x-8">
         <NavLink href="/bio" content="bio" active={false} />
-        <NavLink href="/journal" content="journal" />
-        <NavLink href="/projects" content="projects" />
+        <NavLink href="/journal" content="journal" active={false} />
+        <NavLink href="/projects" content="projects" active={false} />
       </div>
     </header>
   );
