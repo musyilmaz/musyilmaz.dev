@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavLink from "./navlink";
+import NavLink from "@/components/reusable/navlink";
 
 import PageLogo from "@/assets/musyilmaz-logo.webp";
 
@@ -10,7 +10,7 @@ const Header = () => {
         src={PageLogo}
         alt="musyilmaz.dev personal portfolio"
         priority
-        className="w-32"
+        className="h-20 w-fit"
       />
       <div className="flex h-full items-start gap-x-8">
         <NavLink href="/bio" content="bio" active={false} />

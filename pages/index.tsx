@@ -1,4 +1,5 @@
-import Header from "@/components/reusable/header";
+import Header from "@/components/navigation/header";
+import Footer from "@/components/navigation/footer";
 import Head from "next/head";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
           I'm <span className="text-brand-200">Mustafa</span>,
         </h1>
         <h4>Let's build the future together.</h4>
+        <Footer />
       </main>
     </>
   );
