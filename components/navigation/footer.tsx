@@ -22,7 +22,7 @@ const Footer = () => {
             )}
           />
         </a>
-        <a href={SOCIAL_LINKS.GITHUB} target="blank" rel="noopener noreferrer">
+        <a href={SOCIAL_LINKS.TWITTER} target="blank" rel="noopener noreferrer">
           <FiTwitter
             className={classNames(
               "cursor-pointer",
@@ -32,7 +32,11 @@ const Footer = () => {
             )}
           />
         </a>
-        <a href={SOCIAL_LINKS.GITHUB} target="blank" rel="noopener noreferrer">
+        <a
+          href={SOCIAL_LINKS.LINKEDIN}
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <FiLinkedin
             className={classNames(
               "cursor-pointer",
