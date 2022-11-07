@@ -10,7 +10,7 @@ const Header = () => {
         src={PageLogo}
         alt="musyilmaz.dev personal portfolio"
         priority
-        className="h-20 w-fit"
+        className="h-12 w-fit"
       />
       <div className="flex h-full items-start gap-x-8">
         <NavLink href="/bio" content="bio" active={false} />
