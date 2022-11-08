@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -14,7 +14,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/assets/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="bg-brand-400 font-rubik text-brand-100 antialiased">
         <Main />

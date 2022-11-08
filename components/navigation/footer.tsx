@@ -12,7 +12,12 @@ const Footer = () => {
       )}
     >
       <div className={classNames("h-full", "ml-16", "flex items-end gap-x-8")}>
-        <a href={SOCIAL_LINKS.GITHUB} target="blank" rel="noopener noreferrer">
+        <a
+          aria-label="Github"
+          href={SOCIAL_LINKS.GITHUB}
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <FiGithub
             className={classNames(
               "cursor-pointer",
@@ -22,7 +27,12 @@ const Footer = () => {
             )}
           />
         </a>
-        <a href={SOCIAL_LINKS.TWITTER} target="blank" rel="noopener noreferrer">
+        <a
+          aria-label="Twitter"
+          href={SOCIAL_LINKS.TWITTER}
+          target="blank"
+          rel="noopener noreferrer"
+        >
           <FiTwitter
             className={classNames(
               "cursor-pointer",
@@ -33,6 +43,7 @@ const Footer = () => {
           />
         </a>
         <a
+          aria-label="Linkedin"
           href={SOCIAL_LINKS.LINKEDIN}
           target="blank"
           rel="noopener noreferrer"
